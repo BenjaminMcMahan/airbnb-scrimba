@@ -2,13 +2,13 @@ import photogrid from "../images/photo-grid.png";
 
 const Hero = () => {
     return (
-        <main>
-            <img src={photogrid} alt="Grid of photos" className="main--image"/>
-            <h1>Online Experiences</h1>
-            <p>
+        <section className="hero">
+            <img src={photogrid} alt="Grid of photos" className="hero--photo"/>
+            <h1 className="hero--header">Online Experiences</h1>
+            <p className="hero--text">
                 Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
             </p>
-        </main>
+        </section>
     );
 };
 
