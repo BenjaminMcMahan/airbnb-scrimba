@@ -16,3 +16,12 @@ nav {
 .nav--logo {
     max-width: 100px;
 }
+
+main {
+}
+
+.main--image {
+    margin: auto;
+    max-width: 395px;
+    padding: 30px
+}
