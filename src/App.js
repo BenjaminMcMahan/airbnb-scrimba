@@ -8,10 +8,10 @@ function App() {
             <Navbar/>
             <Hero/>
             <Card
-                img="/images/katie-zaferes.png"
+                img="katie-zaferes.png"
                 stars={5.0}
                 starsCount={6}
-                country={"USA"}
+                country="USA"
                 title={"Life Lessons with Katie Zaferes"}
                 price={136}
             />

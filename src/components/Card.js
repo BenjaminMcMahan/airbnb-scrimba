@@ -2,11 +2,11 @@
 const Card = ({stars, starsCount, country, title, price, img}) => {
     return (
         <div className="card">
-            <img src={img} alt="Katie Zaferes" className="card--image"/>
+            <img src={`images/${img}`} alt={title} className="card--image"/>
             <div className="card--stats">
                 <img src="images/star.png" alt="star" className="card--star"/>
                 <span>{stars}</span>
-                <span className="gray">({starsCount}) &#8226; </span>
+                <span className="gray">({starsCount}) •&nbsp; </span>
                 <span className="gray"> {country}</span>
             </div>
             <p>{title}</p>
