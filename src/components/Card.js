@@ -1,11 +1,10 @@
-import KatieZaferesPhoto from "../images/katie-zaferes.png"
-import Star from "../images/star.png";
-const Card = ({stars, starsCount, country, title, price}) => {
+
+const Card = ({stars, starsCount, country, title, price, img}) => {
     return (
         <div className="card">
-            <img src={KatieZaferesPhoto} alt="Katie Zaferes" className="card--image"/>
+            <img src={img} alt="Katie Zaferes" className="card--image"/>
             <div className="card--stats">
-                <img src={Star} alt="star" className="card--star"/>
+                <img src="images/star.png" alt="star" className="card--star"/>
                 <span>{stars}</span>
                 <span className="gray">({starsCount}) &#8226; </span>
                 <span className="gray"> {country}</span>
