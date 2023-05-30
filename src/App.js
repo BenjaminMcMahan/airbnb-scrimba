@@ -17,6 +17,8 @@ function App() {
                         country={data.location}
                         title={data.title}
                         price={data.price}
+                        openSpots={data.openSpots}
+                        location={data.location}
                     />
                 )}
             </section>
