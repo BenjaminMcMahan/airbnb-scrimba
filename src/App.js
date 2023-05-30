@@ -11,7 +11,8 @@ function App() {
                 {Data.map(item =>
                     <Card
                         key={item.id}
-                        item={item}
+                        // Use the spread operator to pass the item down to the component
+                        {...item}
                     />
                 )}
             </section>
